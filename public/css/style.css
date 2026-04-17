@@ -1,0 +1,94 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #e9ecef;
+    font-weight: bold;
+}
+
+.table th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+.badge {
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+}
+
+.dashboard-card {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+.dashboard-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.status-ativo {
+    color: #28a745;
+}
+
+.status-manutencao {
+    color: #ffc107;
+}
+
+.status-inativo {
+    color: #dc3545;
+}
+
+.status-em_uso {
+    color: #17a2b8;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    padding: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .table {
+        font-size: 12px;
+    }
+    
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
