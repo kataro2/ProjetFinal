@@ -2,7 +2,7 @@ $(document).ready(function() {
     // Máscara para placa
     $('#placa').mask('AAA-9999');
     
-    // Máscara para valores monetários
+    
     $('.money').mask('#.##0,00', {reverse: true});
     
     // Confirmação antes de excluir
