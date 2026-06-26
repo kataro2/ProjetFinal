@@ -72,4 +72,3 @@ CREATE TABLE historico (
 -- Inserir usuário admin padrão
 INSERT INTO usuarios (nome, email, senha, cargo) 
 VALUES ('Administrador', 'admin@frota.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
--- Senha: password
